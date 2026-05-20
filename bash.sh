@@ -1,4 +1,12 @@
 curl -SL https://github.com/docker/compose/releases/download/v2.37.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+  echo "# azure-cosmosdb-nextjs-starter" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/QUBUHUB/azure-cosmosdb-nextjs-starter.git
+  git push -u origin main
+
 
  Start-BitsTransfer -Source "https://github.com/docker/compose/releases/download/v2.37.3/docker-compose-windows-x86_64.exe" -Destination $Env:ProgramFiles\Docker\docker-compose.exe
 
